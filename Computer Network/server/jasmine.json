@@ -1,0 +1,13 @@
+{
+  "spec_dir": "src",
+  "spec_files": [
+    "**/helpers/**.spec.ts",
+    "**/api-tests/**.spec.ts",
+    "**/models/order.spec.ts",
+    "**/models/product.spec.ts",
+    "**/models/user.spec.ts"
+  ],
+  "helpers": ["../node_modules/ts-node/register/type-check.js"],
+  "stopSpecOnExpectationFailure": false,
+  "random": false
+}
